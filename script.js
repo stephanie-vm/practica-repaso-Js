@@ -1,23 +1,23 @@
-Ejercicio #1
+//Ejercicio #1
 
-let numero = parseFloat(prompt('Ingrese un año'));
+//let numero = parseFloat(prompt('Ingrese un año'));
 
-if ((numero %100 !=0) && (numero %4==0) || (numero %400==0)) {
-    console.log('El año es bisiesto');
-}else{
-    console.log('El año NO es bisiesto');
-}
+//if ((numero %100 !=0) && (numero %4==0) || (numero %400==0)) {
+    //console.log('El año es bisiesto');
+//}else{
+    //console.log('El año NO es bisiesto');
+//}
 
 //Ejercicio #2
-//let numero = parseFloat(prompt('Ingrese un numero'));
-//let suma = 0;
-//let contador = 1;
-//while (contador <= numero) {
-    //suma += contador;
-    //console.log(contador);
-    //contador++;
-//}
-//console.log(`El resultado es: ${suma}`);
+let numero = parseFloat(prompt('Ingrese un numero'));
+let suma = 0;
+let contador = 1;
+while (contador <= numero) {
+    suma += contador;
+    console.log(contador);
+    contador++;
+}
+console.log(`El resultado es: ${suma}`);
 
 
 
