@@ -23,24 +23,24 @@
 
 //Ejercicio #3
 
-let ingreso = prompt('Ingrese una línea de texto').split('');
-console.log(ingreso);
-ingreso.reverse();
-console.log(ingreso.join(''));
+//let ingreso = prompt('Ingrese una línea de texto').split('');
+//console.log(ingreso);
+//ingreso.reverse();
+//console.log(ingreso.join(''));
 
 //Ejercicio #4
 
-//let texto = prompt('Ingrese un texto');
-//let caracter = prompt('ingrese un caracter');
-//let arreglo = [];
+let texto = prompt('Ingrese un texto');
+let caracter = prompt('ingrese un caracter');
+let arreglo = [];
 
-//for (let i = 0; i < texto.length; i++) {
-    //if (texto[i] === caracter) {
-        //arreglo.push(i);
-    //}
+for (let i = 0; i < texto.length; i++) {
+    if (texto[i] === caracter) {
+        arreglo.push(i);
+    }
     
-//}
-//console.log(`El caracter ${caracter} se repite:`, arreglo.length, 'veces en el texto');
+}
+console.log(`El caracter ${caracter} se repite:`, arreglo.length, 'veces en el texto');
 
 //Ejercicio #5
 
