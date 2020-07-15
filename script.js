@@ -62,18 +62,18 @@
 
 //Ejercicio #6
 
-let pregunta = parseFloat(prompt('Ingrese un número'));
+//let pregunta = parseFloat(prompt('Ingrese un número'));
 
-if (pregunta %2 != 0) {
-    console.log('El número es primo');
-}else{
-    console.log('El número no es primo');
-}
+//if (pregunta %2 != 0) {
+    //console.log('El número es primo');
+//}else{
+    //console.log('El número no es primo');
+//}
 
 //Ejercicio #7
 
-//let texto = prompt('Ingrese un texto').split(' ');
+let texto = prompt('Ingrese un texto').split(' ');
 
-//let adjunto = texto.join('');
-//console.log(adjunto);
+let adjunto = texto.join('');
+console.log(adjunto);
 
