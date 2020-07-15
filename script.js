@@ -9,24 +9,24 @@
 //}
 
 //Ejercicio #2
-let numero = parseFloat(prompt('Ingrese un numero'));
-let suma = 0;
-let contador = 1;
-while (contador <= numero) {
-    suma += contador;
-    console.log(contador);
-    contador++;
-}
-console.log(`El resultado es: ${suma}`);
+//let numero = parseFloat(prompt('Ingrese un numero'));
+//let suma = 0;
+//let contador = 1;
+//while (contador <= numero) {
+    //suma += contador;
+    //console.log(contador);
+    //contador++;
+//}
+//console.log(`El resultado es: ${suma}`);
 
 
 
 //Ejercicio #3
 
-//let ingreso = prompt('Ingrese una línea de texto').split('');
-//console.log(ingreso);
-//ingreso.reverse();
-//console.log(ingreso.join(''));
+let ingreso = prompt('Ingrese una línea de texto').split('');
+console.log(ingreso);
+ingreso.reverse();
+console.log(ingreso.join(''));
 
 //Ejercicio #4
 
