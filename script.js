@@ -44,31 +44,31 @@
 
 //Ejercicio #5
 
-let ingreso = parseFloat(prompt('Adivine el número secreto del 1 al 100'));
-let contador = 0 && 1;
-let secreto = 20;
-let cero = 0;
+//let ingreso = parseFloat(prompt('Adivine el número secreto del 1 al 100'));
+//let contador = 0 && 1;
+//let secreto = 20;
+//let cero = 0;
 
 
-    while (ingreso != secreto && ingreso != cero ) {
-        if (ingreso > secreto) {
-            console.log('El número que ingresó es mayor al número secreto')
-        }else{
-            console.log('El número que ingresó es menor al número secreto')
-        }
-        ingreso = parseFloat(prompt('Adivine el número secreto del 1 al 100'));
-    }
-    console.log('Adivinaste!');
+    //while (ingreso != secreto && ingreso != cero ) {
+        //if (ingreso > secreto) {
+            //console.log('El número que ingresó es mayor al número secreto')
+        //}else{
+            //console.log('El número que ingresó es menor al número secreto')
+        //}
+        //ingreso = parseFloat(prompt('Adivine el número secreto del 1 al 100'));
+    //}
+    //console.log('Adivinaste!');
 
 //Ejercicio #6
 
-//let pregunta = parseFloat(prompt('Ingrese un número'));
+let pregunta = parseFloat(prompt('Ingrese un número'));
 
-//if (pregunta %2 != 0) {
-    //console.log('El número es primo');
-//}else{
-    //console.log('El número no es primo');
-//}
+if (pregunta %2 != 0) {
+    console.log('El número es primo');
+}else{
+    console.log('El número no es primo');
+}
 
 //Ejercicio #7
 
